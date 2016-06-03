@@ -10,14 +10,14 @@ var UserCtrl = require('./controllers/UserCtrl');
 
 // Express
 var app = express();
-
+// app.use(express.static(__dirname + './../public')); 
 // Middleware
 app.use(bodyParser.json());
 app.use(cors());
 
 // Endpoints
 app.post('/sighting', SightingCtrl.create);
-app.get('/sighting', SightingCtrl.raed);
+app.get('/sighting', SightingCtrl.read);
 app.put('/sighting/:id', SightingCtrl.update);
 app.delete('/sighting/:id', SightingCtrl.delete);
 

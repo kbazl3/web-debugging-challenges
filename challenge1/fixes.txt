@@ -1,0 +1,1 @@
+the app.js had a lot of bugs I had experienced before.  The ui-router dependency is supposed to be ui.router.  the states were supposed to have the curly braces inside the parantheses

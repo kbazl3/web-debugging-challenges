@@ -40,5 +40,13 @@ angular.module('miniRouting')
       color: 'Green',
       size: 'L'
     },
-  ];
+];
+
+    this.sendShoes = function() {
+        return {
+            shoes: shoeData,
+            socks: sockData
+        };
+    }
+
 });

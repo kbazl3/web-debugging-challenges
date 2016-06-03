@@ -1,0 +1,3 @@
+The endpoint for app.get('/sighting', SightingCtrl.read) had a misspelled word.  It was supposed to be "read", but it was typed out "raed"
+
+npm install took care of the Dependencies errors

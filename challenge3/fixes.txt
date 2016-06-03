@@ -1,0 +1,7 @@
+settingsTmpl.html was mistyped in the state provider
+
+There was an s missing in the ui-sref="products"
+
+The service had no function sending back the data
+
+the var productType = $stateParams.id needed to match with url: '/products/:id', 
